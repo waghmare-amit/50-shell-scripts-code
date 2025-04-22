@@ -1,7 +1,7 @@
 #!/bin/bash
 ftp -n <<EOF
-open ftp.yourserver.com
-user yourusername yourpassword
-get file.txt
+open 127.0.0.1
+user AmitWaghmare amit 
+get 01_addition.sh
 bye
 EOF

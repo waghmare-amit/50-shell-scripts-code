@@ -1,7 +1,7 @@
 #!/bin/bash
-ftp -n <<EOF
-open ftp.yourserver.com
-user yourusername yourpassword
-put file.txt
+ftp -inv <<EOF
+open 127.0.0.1
+user anonymous ""
+put 01_addition.sh 
 bye
 EOF

@@ -1,0 +1,6 @@
+#!/bin/bash
+ftp 127.0.0.1
+Username: AmitWaghmare
+Password: amit
+ftp> ls
+ftp> get 01_addition.sh
